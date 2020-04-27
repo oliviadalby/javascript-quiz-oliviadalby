@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Olivia's WRA410 Quiz</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "main.js"></script>
+
+</head>
+
+
+<body>
+<h1>Don't Screw Up!</h1>
+
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">What three languages must all web devs learn?</p>
+<input id = "textbox" type = "text" name = "question1">
+
+<p class = "questions">What does CSS stand for?</p>
+<input type = "radio" id = "mc" name = "question2" value = "HTML CSS JAVA "> HTML CSS Java <br>
+<input type = "radio" id = "mc" name = "question2" value = "HTML JAVASCRIPT JAVA"> HTML Javascript Java <br>
+<input type = "radio" id = "mc" name = "question2" value = "HTML CSS JAVA "> CSS Javascript Ruby  <br>
+<input type = "radio" id = "mc" name = "question2" value = "HTML JAVASCRIPT JAVA"> HTML CSS Javascript<br>
+
+
+<p class = "questions">What is not a component of Rails?</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "Action Pack"> Action Pack<br>
+<input type = "radio" id = "mc" name = "question3" value = "Action Model"> Action Model<br>
+<input type = "radio" id = "mc" name = "question3" value = "Action Mailer"> Action Mailer<br>
+<input type = "radio" id = "mc" name = "question3" value = "Action Development"> Action Development<br>
+
+<p class = "questions">What does the head of an HTML document look like? (Type as one line.) </p>
+<input id = "textbox" type = "text" name = "question4">
+
+<p class = "questions">What is the order of a "for" statement in Javascript? </p>
+<input type = "radio" id = "mc" name = "question5" value = "for ([condition]; [initialExpression]; [incrementExpression])"> for ([condition]; [initialExpression]; [incrementExpression]) <br>
+<input type = "radio" id = "mc" name = "question5" value = "for ([initialExpression]; [condition]; [incrementExpression])"> for ([initialExpression]; [condition]; [incrementExpression]) <br>
+<input type = "radio" id = "mc" name = "question5" value = "for [condition]; [initialExpression]; [incrementExpression]"> for [condition]; [initialExpression]; [incrementExpression] <br>
+<input type = "radio" id = "mc" name = "question5" value = "for [initialExpression]; [condition]; [incrementExpression]"> for [initialExpression]; [condition]; [incrementExpression]<br>
+
+<p class = "questions">Can you pass an anonymous function as an argument to another function?</p>
+
+<input type = "radio" id = "mc" name = "question6" value = "True"> True<br>
+<input type = "radio" id = "mc" name = "question6" value = "False"> False<br>
+
+<p class = "questions">What are the two scopes of Javascript? </p>
+
+<input type = "radio" id = "mc" name = "question7" value = "There is only one scope."> There is only one scope.<br>
+<input type = "radio" id = "mc" name = "question7" value = "Global and Local"> Global and Local.<br>
+<input type = "radio" id = "mc" name = "question7" value = "Micro and Macro"> Micro and Macro<br>
+<input type = "radio" id = "mc" name = "question7" value = "Global and Narrow"> Global and Narrow<br>
+
+<p class = "questions">In Ruby on Rails applications, the collection of actions in an MVC application and directed by routes is called a ____. </p>
+
+<input type = "radio" id = "mc" name = "question8" value = "Command"> Command<br>
+<input type = "radio" id = "mc" name = "question8" value = "Logic"> Logic<br>
+<input type = "radio" id = "mc" name = "question8" value = "Scaffold"> Scaffold<br>
+<input type = "radio" id = "mc" name = "question8" value = "Controller"> Controller<br>
+
+<p class = "questions">What is a necessary step after creating a To Do list in Rails? </p>
+<input id = "textbox" type = "text" name = "question9">
+
+<p class = "questions"> What is true about the following loop?
+let n = 0;
+let x = 0;
+while (n < 3) {
+  n++;
+  x += n;
+}
+ </p>
+
+<input type = "radio" id = "mc" name = "question8" value = "The following while loop iterates as long as n is less than 3."> The following while loop iterates as long as n is less than 3.<br>
+<input type = "radio" id = "mc" name = "question8" value = "The following while loop iterates as long as n is 3 or less."> The following while loop iterates as long as n is 3 or less.<br>
+<input type = "radio" id = "mc" name = "question8" value = "The following while loop iterates as long as x is less than 3."> The following while loop iterates as long as x is less than 3.<br>
+<input type = "radio" id = "mc" name = "question8" value = "The following while loop iterates as long as n is greater than 3."> The following while loop iterates as long as n is greater than 3.<br>
+
+
+<input id = "button" type = "button" value = "Done." onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+</html>
+
+</body>
